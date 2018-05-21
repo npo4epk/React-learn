@@ -1,0 +1,54 @@
+/* @IMPORT
+ ========================= */
+/* COLORS
+ ========================= */
+/* FONTS
+ ========================= */
+/* SIZES
+ ========================= */
+/* MEDIA SIZES
+ ========================= */
+/* FONTS-FACE
+ 	@include font-face('FontAwesome', '../fonts/FontAwesome/fontawesome-webfont', normal, normal, eot woff2 woff ttf svg);
+ ========================= */
+/* PX in REM
+ 	@include rem(lh, 12, 16);
+	@include rem(fs, 12, 16);
+ ========================= */
+/* PSEUDO
+	@include pseudo(block, absolute, ' ');
+ ========================= */
+/* CLEARFIX
+	@include clearfix()
+ ========================= */
+/* PLEACEHOLDER
+	@include placeholder(red, normal, none)
+ ========================= */
+/* LIST-CLEAR
+	@include list-clear()
+ ========================= */
+.none {
+  display: none !important; }
+
+body {
+  background: rgba(0, 102, 255, 0.38);
+  font-family: sans-serif; }
+
+p {
+  margin: 0 0 5px; }
+
+.article {
+  background: #FFF;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  width: 600px;
+  margin: 0 0 5px;
+  box-shadow: 2px 2px 5px -1px #0051ca;
+  padding: 3px 5px; }
+
+.news__author {
+  text-decoration: underline;
+  color: #007DDC; }
+
+.news__count {
+  margin: 10px 0 0 0;
+  display: block; }
